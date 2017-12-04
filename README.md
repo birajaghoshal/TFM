@@ -6,6 +6,8 @@
 ### Organización
 
 * Architecture: arquitecturas de redes neuronales convolucionales implementadas.
+    * pretrained-model: modelos pre entrenados de las arquitecturas a implementar
+    * saved-model: los resultados de las implementaciones
 * Dataset: se explica el conjunto de datos, aportando información sobre la estructura y el tipo de imágenes que en él se hallan.
 * img-raw: es el directorio en el que se encuentran las imágenes, está incluido en *.gitignore* debido al volumen que representan, a efectos de poder reproducir los resultados obtenidos en el desarrollo de la investigación, las imágenes puedes se descargaas ![aquí](https://zenodo.org/record/53169/export/hx).
 * State of the art: son piezas de información en formato borrador, como por ejemplo: comparativa de artículos, listado bibliográfico... que compondrán el estado del arte de la investigación.
