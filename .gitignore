@@ -1,5 +1,4 @@
-img-raw/
-architecture/pretrained-model
-architecture/nn-weights
-architecture/feature-maps
+data/input_dataset/
+data/output_dataset/
+data/output_convnet/
 Libro/
