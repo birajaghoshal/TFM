@@ -1,4 +1,5 @@
 data/input_dataset/
 data/output_dataset/
 data/output_convnet/
+convnet/keras_weights/
 Libro/
