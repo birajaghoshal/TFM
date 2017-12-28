@@ -1,6 +1,7 @@
 data/input_dataset/
 data/output_dataset/
 data/output_convnet/
+data/samples
 convnet/keras_weights/
 convnet/train/
 convnet/test/
