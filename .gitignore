@@ -1,8 +1,9 @@
 data/input_dataset/
 data/output_dataset/
 data/output_convnet/
-data/samples/
+data/samples_backup/
 convnet/keras_weights/
 convnet/train/
 convnet/test/
+convnet/validation/
 Libro/
