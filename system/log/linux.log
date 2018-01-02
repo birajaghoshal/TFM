@@ -1,0 +1,10 @@
+RELEASE=18.3
+CODENAME=sylvia
+EDITION="MATE 64-bit"
+DESCRIPTION="Linux Mint 18.3 Sylvia"
+DESKTOP=MATE
+TOOLKIT=GTK
+NEW_FEATURES_URL=http://www.linuxmint.com/rel_sylvia_mate_whatsnew.php
+RELEASE_NOTES_URL=http://www.linuxmint.com/rel_sylvia_mate.php
+USER_GUIDE_URL=help:linuxmint
+GRUB_TITLE=Linux Mint 18.3 MATE 64-bit
