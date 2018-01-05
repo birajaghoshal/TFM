@@ -8,5 +8,6 @@ convnet/keras_weights/
 convnet/train/
 convnet/test/
 convnet/validation/
+convnet/aux/
 Libro/
 testing/
