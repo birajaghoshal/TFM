@@ -5,19 +5,17 @@
 
 ### Organización
 
-* Architecture: arquitecturas de redes neuronales convolucionales implementadas.
-    * pretrained-model: modelos pre entrenados de las arquitecturas a implementar
-    * saved-model: los resultados de las implementaciones
-* Dataset: se explica el conjunto de datos, aportando información sobre la estructura y el tipo de imágenes que en él se hallan.
-* img-raw: es el directorio en el que se encuentran las imágenes, está incluido en *.gitignore* debido al volumen que representan, a efectos de poder reproducir los resultados obtenidos en el desarrollo de la investigación, las imágenes pueden ser descargadas ![aquí](https://zenodo.org/record/53169/export/hx).
-* State of the art: son piezas de información en formato borrador, como por ejemplo: comparativa de artículos, listado bibliográfico... que compondrán el estado del arte de la investigación.
-* System: se detalla toda la información sobre el equipo de *hardware* usado, así como su configuración.
-* Testing: son un conjunto de archivos sobre los que se hacen pruebas, para comprobar carga de librerías, capacidad de cómputo etc.
+* convnet: arquitecturas implementadas. VGG16, VGG19 e InceptionV3. Primero, se obtienen descriptores profundos, a los que se aplican primero reducción de dimensionalidad y luego se clasifican por métodos clásicos. Segundo, se entrena una capa convolucional en cada arquitectura y es la propia red quien clasifica las imágenes.
+
+* data: exploración de los datos y la creación de muestras para el entrenamiento de la capa convolucional.
+
+* system: información del sistema en el que se ha desarrollado el trabajo. Logs de algunas plataformas y programas usados.
+
+Nota: Las imágenes y las muestras no se han incluido, por el tamaño de las mismas. En [J. N. Kather et al., “Collection of textures in colorectal cancer histology,” doi.org, May 2016](https://zenodo.org/record/53169/export/hx) pueden ser descargadas.
 
 ### Tecnologías
 
 * Git-Github: para el versionado de código.
-* LaTeX: para la edición final del texto.
 * Mendeley: para la organización de la bibliografía a la que se ha recurrido.
 * Python - Jupyter: para la edición de código de las implementaciones llevadas a cabo.
-* Tensorflow - Anaconda: conjunto de librerías que se usarán en el desarrollo de la investigación.
+* Keras - Anaconda: conjunto de librerías que se usarán en el desarrollo de la investigación.
